@@ -93,6 +93,43 @@ header {
   }
 }
 
+@media (max-width: 414px) and (orientation: portrait) {
+  header img {
+    left: 10%;
+    width: 80%;
+  }
+
+  header h1 {
+    top: 35%;
+    font-size: 30px;
+    line-height: 180%;
+  }
+
+  header button {
+    right: 10%;
+    width: 80%;
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 360px) and (orientation: portrait) {
+  
+  header h1 {
+    top: 35%;
+    font-size: 24px;
+  }
+
+}
+
+@media (max-width: 320px) and (orientation: portrait) {
+
+  header button {
+    right: 10%;
+    width: 80%;
+    font-size: 20px;
+  }
+}
+
 section {
   width: 86%;
   margin: 80px auto 0;
